@@ -6,7 +6,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     [SerializeField] private float jumpHeight = 2.0f;
     [SerializeField] private float peakTime = 0.3f;
-    private float ground = 0.83f;
+  
     private InputAction jumpAction;
     private InputAction godModeAction;
     bool requestJump = false;
@@ -19,10 +19,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private float gravity;
 
     private Rigidbody2D rb;
-    private Collider2D[] results = new Collider2D[5];
     Collider2D collider;
-
     private ContactFilter2D contactFilter;
+
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

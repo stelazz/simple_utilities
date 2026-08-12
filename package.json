@@ -1,0 +1,7 @@
+{
+  "name":"simple_utilities",
+  "displayName":"SimpleUtilities",
+  "version": "0.1",
+  "description": "package made to prototype games easily",
+  "unity":"6000.3"
+}

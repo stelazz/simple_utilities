@@ -1,8 +1,9 @@
 {
-    "name": "NewAssembly",
+    "name": "SimpleUtilities",
     "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

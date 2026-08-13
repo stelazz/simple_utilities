@@ -1,2 +1,2 @@
-This repo cointains code that I use in my game projects:)
-It's kinda janky
+This repo cointains code that I use for my prototypes and gamejam games:)
+It can be a little janky

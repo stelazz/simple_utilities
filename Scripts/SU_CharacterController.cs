@@ -2,11 +2,12 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+
+public class SU_CharacterController : MonoBehaviour
 {
     [SerializeField] private float jumpHeight = 2.0f;
     [SerializeField] private float peakTime = 0.3f;
-  
+
     private InputAction jumpAction;
     private InputAction godModeAction;
     bool requestJump = false;
@@ -36,9 +37,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
         contactFilter.useNormalAngle = true;
         contactFilter.minNormalAngle = 90;
         contactFilter.maxNormalAngle = 90;
-        
+
         gravity = 2f * jumpHeight / (peakTime * peakTime);
-         
+
     }
 
 
